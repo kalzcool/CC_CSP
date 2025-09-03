@@ -43,3 +43,5 @@ print(subject_fav)
 birthday = input("when is your birthday?")
 
 print (birthday ,"HOLY PEAK")
+
+print (breakfast)
