@@ -18,14 +18,21 @@ friend4 = 19
 total = friend1+friend2+friend3+friend4/4 
 print("The average age between all of the friends is", total )
 
-num1=12
-num2=7 
+num1= int(input("tell me a number: \n"))
+num2= float(input("Tell me another number: \n"))
 
 
-print("Addition(+): ", num1+num2)
-print("Subtraction(-): ", num1-num2)
-print("Multiplication(*): ", num1*num2)
-print("Division(/): " , num1/num2)
-print("Exponents(**): ", num1**num2)
-print("Interger Division(//): ", num1//num2)
-print("Modulo(%): ", num1%num2)
+num1 += num2
+print("Addition(+): ", num1)
+num1 -= num2
+print("Subtraction(-): ", num1)
+num1 *= num2 
+print("Multiplication(*): ", num1)
+num1 /= num2 
+print("Division(/): " , round(num1, 2)) #keyword round (number to round, number of dicimal places)
+num1 **= num2
+print("Exponents(**): ", num1)
+num1 //= num2
+print("Interger Division(//): ", num1)
+num1 %= num2
+print("Modulo(%): ", num1)
