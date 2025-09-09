@@ -18,8 +18,8 @@ spend_percent = (spend/income) *100
 
 
 print(f"\nYour rent is ${rent:.2f} and it is {rent_percent:.2f}% of your income")
-print(f"\nYour utilities are ${utilities:.2f} it is {utilities_percent:.2f}% of your income") 
-print(f"\nYour groceries are ${groceries:.2f} it is {groceries_perecent:.2f}%")
-print(f"\n")
-print(f"\n")
-print(f"\n")
+print(f"\nYour utilities is ${utilities:.2f} it is {utilities_percent:.2f}% of your income") 
+print(f"\nYour groceries is ${groceries:.2f} it is {groceries_perecent:.2f}%")
+print(f"\nYour transportation is{transportation:.2f} is it {transportation_percent:.2f}%")
+print(f"\nYour savings are {savings:.2f} it is {savings_percent}%")
+print(f"\nYour amount to spend is {spend:.2f} it is {spend_percent}%")
