@@ -3,6 +3,7 @@
 def hello_user(name):
     print(f"Hello {name}!") 
 
+
 hello_user("Ares")
 hello_user("Melissa")
 hello_user("Berrak")
