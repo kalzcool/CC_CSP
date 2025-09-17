@@ -7,10 +7,12 @@
 #else:
   #  print("Yes you can go")
 
-grade = 100 
+grade = 89
 
-if grade >89:
+if grade >=90:
     print(f"You have {grade}% that is an A :3") 
-if grade > 79:
+elif grade >= 80: 
+    print(f"You have {grade}% that is a B")
+elif grade 
 else: 
     print(f"You have a {grade}% that is so far from an A.. How did you even get that.?")
