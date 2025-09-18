@@ -4,7 +4,7 @@ def monthly_amounts(other_things):
    return round(other_things/ income*100,2)
 
     
-income= 3000
+income= int(input("What is your monthly income\n"))
 
 rent_percent = monthly_amounts(1500)
 utilities_percent = monthly_amounts(600)
