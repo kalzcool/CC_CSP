@@ -6,5 +6,7 @@ int main(void){
     printf("What is your name: \n");
     fgets(name, sizeof(name), stdin);
 
-    printf("What is your %s \n", name)
+    printf("Hello %s, welcome to your first c program \n", name);
+
+    return 0;
 }
