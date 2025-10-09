@@ -29,5 +29,5 @@ int main(void){
     printf("You have %d of spending money a month.", monthly_income-(monthly_groceries+ monthly_rent + monthly_transportaion+monthly_utilities))
 
 
-    return 0;
+    return 0 ;
 }
