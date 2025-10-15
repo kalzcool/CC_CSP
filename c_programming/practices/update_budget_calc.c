@@ -4,7 +4,7 @@
 
 float get_month(char* monthly){
     float value;
-    printf("What is your monthly %s:\n", monthly);
+    printf("What is your monthly %f:\n", monthly);
     scanf("%f", value);
     return value;
 }
@@ -26,7 +26,6 @@ int main(void){
     float up = percentages(utilities, income);
     float gp = percentages(groceries, income);
     float tp = percentages(transportation, income);
-    float sp = percentages(spending, income);
     float sap = percentages(savings, income);
 
     printf("Your rent is %f, and it is %f of your income\n", rent,rp);
@@ -34,7 +33,7 @@ int main(void){
     printf("Your rent is %f, and it is %f of your income\n", groceries,gp);
     printf("Your rent is %f, and it is %f of your income\n", transportation,tp);
     printf("Your rent is %f, and it is %f of your income\n", savings,sap);
-    printf("placeholder, do the spending money here dumba");
+    printf("You have %f money to spend this month\n", spending);
 
     return 0;
 }
