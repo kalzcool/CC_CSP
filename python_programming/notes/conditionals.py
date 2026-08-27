@@ -1,11 +1,11 @@
 #CC 7th conditonals notes
 
-#homework_done = input("is your homework done: ").strip().capitalize()
+homework_done = input("is your homework done: ").strip().capitalize()
 
-#if homework_done == "No":
-#    print("Then go do your homework.")
-#else:
-  #  print("Yes you can go")
+if homework_done == "No":
+    print("Then go do your homework.")
+else:
+    print("Yes you can go")
 
 
 name = input("What is your name?:\n") 
