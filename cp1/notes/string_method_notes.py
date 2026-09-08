@@ -31,3 +31,11 @@ print(sentance.upper())
 print(sentance.capitalize())
 print(sentance.title())
 print(fixed)
+print(f"Hello {full_name.title()} welcome to my program")
+
+letter=input("Give me a letter: ")
+letter = letter[0].lower()
+number_value =ord(letter)
+number_value+= 2
+new_letter= chr(number_value)
+print(f"Your Letter was {letter} now it is {new_letter}")
